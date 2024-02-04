@@ -1,0 +1,2 @@
+epoch,test_top1_acc,test_top5_acc,almost_sim_nonzeros,local_size_all_classes,almost_nonzeros_pooled,num_nonzero_prototypes,mean_train_acc,mean_train_loss_during_epoch
+notused0,0.005215123859191656,0.035202086049543675,0.7385919165580183,2.503259452411995,0.7385919165580183,37,n.a.,n.a.
