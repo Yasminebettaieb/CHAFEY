@@ -1,3 +1,5 @@
+# Code copied from: https://github.com/M-Nauta/PIPNet
+
 # PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification
 This repository presents the PyTorch code for PIP-Net (Patch-based Intuitive Prototypes Network). 
 
