@@ -1,0 +1,20 @@
+## What is PIPNet
+
+Folowing chapters are based on this repository: https://github.com/M-Nauta/PIPNet
+
+PIP-Net is an interpretable and intuitive deep learning method for image classification. PIP-Net learns prototypical parts: interpretable concepts visualized as image patches. PIP-Net classifies an image with a sparse scoring sheet where the presence of a prototypical part in an image adds evidence for a class. PIP-Net is globally interpretable since the set of learned prototypes shows the entire reasoning of the model. A smaller local explanation locates the relevant prototypes in a test image. The model can also abstain from a decision for out-of-distribution data by saying “I haven’t seen this before”. The model only uses image-level labels and does not rely on any part annotations. 
+
+### The steps we did
+
+We tried following steps to create a PIPNet model for dog breed identification:
+- convert the dataset to the Imagefolder format
+- add the dog-breed dataset to the `data.py` to register the dataset.
+- start training the model with folowing comand: `python3 main.py --dataset dogs --epochs_pretrain 0 --batch_size 64 --freeze_epochs 10 --epochs 0 --log_dir ./runs/pipnet_cub`
+- fixing multible syntax and runtime errors during multible execution of the training.
+- protoypes were generated
+- images with their prototype mappings were generated
+- syntax error at the end of the evaluation -> we couldn't fix it (to much effort)
+
+### Interpretation
+
+ After the unfinished training process, we still got decent looking prototypes (a lot of them focusing on the head/muzzle/ears) and many test images with mapped a prototype (but no ground truth). The model itself was better than guessing, but the low score made the model unsuable. Our assumption is, that the encoding and the protoype mapping was working properly but the fully connected layer doesn't. So in the end the final results were not clear. With more time and effort spent fixing errors and hypertuning the training process, a decent usable result can possibly be achieved.
