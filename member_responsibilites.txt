@@ -1,23 +1,23 @@
 ---------------------------------------------------------------------
 Repository: https://github.com/Yasminebettaieb/CHAFEY
 ---------------------------------------------------------------------
-Members: Alexander Harry, Hamid ___, Christian Neckel, Florian Weidner, Eva Kvint, Yasmine ___
+Members: Alexander Harry, Hamidreza Khoshvaghti [khoshvag], Christian Neckel, Florian Weidner, Eva Kvint, Yasmine ___
 ---------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------
-Responsibilies:
+Responsibilities:
 ---------------------------------------------------------------------
 
 XAI-methods:
 ----------------------------------------------------
 LIME: Alexander
 SHAP: Hamid
-Salency Maps(and extensions): Eva, Yasmin
+Saliency Maps(and extensions): Eva, Yasmin
 Prototype Model (especially PIPNet): Florian, Chris
 
 ----------------------------------------------------
-Presentation: Yasmine, Eva, Florian
+Presentation: Yasmine, Eva, Florian, Hamid
 
 ----------------------------------------------------
 Report: Yasmine, Florian(Prototype)
